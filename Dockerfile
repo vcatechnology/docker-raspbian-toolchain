@@ -22,7 +22,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.schema-version="1.0"
 
 # Install useful packages
-RUN sudo vca-install-package \
+RUN vca-install-package \
   alsa-utils \
   automake \
   bc \
