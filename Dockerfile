@@ -139,7 +139,7 @@ RUN vca-install-package \
   yasm \
   zlib1g-dev
 
-RUN pip install cpplint sseclient backports.functools_lru_cache coverage
+RUN su build-server -c 'pip install --user cpplint sseclient backports.functools_lru_cache coverage'
 
 # Stop emulation
 RUN [ "cross-build-end" ]
