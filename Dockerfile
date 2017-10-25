@@ -53,6 +53,7 @@ RUN vca-install-package \
   libaa1-dev \
   libasm-dev \
   libasound2-dev \
+  libasprintf-dev \
   libattr1-dev \
   libboost-all-dev \
   libbz2-dev \
