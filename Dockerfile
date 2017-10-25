@@ -29,16 +29,18 @@ RUN vca-install-package \
   bison \
   check \
   cmake \
+  comerr-dev \
   cppcheck \
   debhelper \
   dialog \
   doxygen \
   eject \
+  esfslibs-dev \
   flex \
-  gawk \
-  gdisk \
   g++ \
+  gawk \
   gcc \
+  gdisk \
   gperf \
   graphviz \
   gsoap \
@@ -67,18 +69,21 @@ RUN vca-install-package \
   libelf-dev \
   libffi-dev \
   libgcrypt11-dev \
+  libgettextpo-dev \
   libgmp-dev \
   libgnutls28-dev \
   libgpg-error-dev \
+  libgsoap-dev \
   libgstreamer-plugins-bad1.0-dev \
   libgstreamer-plugins-base1.0-dev \
   libgstreamer1.0-dev \
-  libgsoap-dev \
   libgudev-1.0-dev \
   libicu-dev \
   libidn11-dev \
   libisl-dev \
   libjansson-dev \
+  libkrad-dev \
+  libkrb5-dev \
   libmount-dev \
   libmpc-dev \
   libmpfr-dev \
@@ -107,8 +112,9 @@ RUN vca-install-package \
   libtasn1-6-dev \
   libtinyxml-dev \
   libtool-bin \
-  libusb-1.0-0-dev \
   libudev-dev \
+  libusb-1.0-0-dev \
+  libverto-dev \
   libx264-dev \
   libxml2-dev \
   lintian \
@@ -120,6 +126,7 @@ RUN vca-install-package \
   ncurses-term \
   nettle-dev \
   nodejs \
+  nodejs-legacy \
   npm \
   p7zip-full \
   pandoc \
@@ -131,10 +138,11 @@ RUN vca-install-package \
   python-tz \
   qemu \
   realpath \
+  ss-dev \
   stress \
   subunit \
-  uuid-runtime \
   unrar-free \
+  uuid-runtime \
   vde2 \
   xzdec \
   yasm \
