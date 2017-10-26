@@ -35,7 +35,7 @@ RUN vca-install-package \
   dialog \
   doxygen \
   eject \
-  esfslibs-dev \
+  e2fslibs-dev \
   flex \
   g++ \
   gawk \
