@@ -31,8 +31,12 @@ RUN vca-install-package \
   cmake \
   comerr-dev \
   cppcheck \
+  dbus \
   debhelper \
+  dfu-util \
   dialog \
+  dnsmasq \
+  dosfstools \
   doxygen \
   e2fslibs-dev \
   eject \
@@ -40,6 +44,8 @@ RUN vca-install-package \
   g++ \
   gawk \
   gcc \
+  gdb \
+  gdbserver \
   gdisk \
   gperf \
   graphviz \
@@ -50,6 +56,7 @@ RUN vca-install-package \
   gstreamer1.0-plugins-good \
   gstreamer1.0-plugins-ugly \
   gstreamer1.0-tools \
+  gstreamer1.0-vaapi \
   intltool \
   libaa-bin \
   libaa1-dev \
@@ -64,6 +71,7 @@ RUN vca-install-package \
   libcppunit-dev \
   libcurl4-gnutls-dev \
   libdbus-1-dev \
+  libdrm-dev \
   libdw-dev \
   libeigen3-dev \
   libelf-dev \
@@ -85,6 +93,7 @@ RUN vca-install-package \
   libkrad-dev \
   libkrb5-dev \
   libmount-dev \
+  libmozjs185-dev \
   libmpc-dev \
   libmpfr-dev \
   libncurses5-dev \
@@ -100,8 +109,11 @@ RUN vca-install-package \
   libpciaccess-dev \
   libpcre3-dev \
   libpng12-dev \
+  libpolkit-agent-1-dev \
+  libpolkit-gobject-1-dev \
   libpopt-dev \
   libprotobuf-dev \
+  libprotoc-dev \
   libqt4-dev \
   libsigc++-2.0-dev \
   libsoup2.4-dev \
@@ -114,7 +126,9 @@ RUN vca-install-package \
   libtool-bin \
   libudev-dev \
   libusb-1.0-0-dev \
+  libva-dev \
   libverto-dev \
+  libwebp-dev \
   libx264-dev \
   libxml2-dev \
   lintian \
@@ -125,6 +139,7 @@ RUN vca-install-package \
   nasm \
   ncurses-term \
   nettle-dev \
+  network-manager \
   nodejs \
   nodejs-legacy \
   npm \
