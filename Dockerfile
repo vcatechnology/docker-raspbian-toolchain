@@ -34,8 +34,8 @@ RUN vca-install-package \
   debhelper \
   dialog \
   doxygen \
-  eject \
   e2fslibs-dev \
+  eject \
   flex \
   g++ \
   gawk \
