@@ -165,6 +165,12 @@ RUN vca-install-package \
 
 RUN su build-server -c 'pip install --user cpplint sseclient backports.functools_lru_cache coverage'
 
+RUN curl http://ftp.us.debian.org/debian/pool/main/a/automake-1.15/automake_1.15-6_all.deb > automake.deb \
+ && curl http://ftp.us.debian.org/debian/pool/main/a/autoconf/autoconf_2.69-10_all.deb > autoconf.deb \
+ && dpkg -i automake.deb autoconf.deb \
+ && rm autoconf.deb automake.deb \
+ && vca-install-package -f
+
 # Stop emulation
 RUN [ "cross-build-end" ]
 USER build-server
